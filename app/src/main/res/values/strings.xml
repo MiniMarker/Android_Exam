@@ -1,0 +1,30 @@
+<resources>
+	<string name="app_name">TicTacToe</string>
+	<string name="strGameName">TicTacToe</string>
+	
+	<string name="strSinglePlayer">Single</string>
+	<string name="strMultiPlayer">Multi</string>
+	<string name="strHighScore">HighScore</string>
+	<string name="strSettings">Settings</string>
+	<string name="strPlayGame">Play Game</string>
+	
+	<string name="strPlayer1">Player 1</string>
+	<string name="strPlayer2">Player 2</string>
+	
+	<string name="strDifficultyEasy">Easy</string>
+	<string name="strDifficultyHard">Hard</string>
+	
+	<string name="strSettingsVolume">Volume</string>
+	<string name="strSettingsDifficulty">Difficulty</string>
+	<string name="strSettingsReset">Reset HighScore</string>
+	<string name="strSettingsResetBtn">Reset</string>
+	
+	<string name="strPlayer1Win">Player1 wins!</string>
+	<string name="strPlayer2Win">Player2 wins!</string>
+	<string name="strDraw">Its draw!</string>
+	<string name="strPlay">Play!</string>
+	
+	<string name="strName">Name</string>
+	<string name="strVictories">Victories</string>
+	<string name="strDefeats">Defeats</string>
+</resources>

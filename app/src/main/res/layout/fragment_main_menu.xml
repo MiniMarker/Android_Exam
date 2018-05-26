@@ -1,0 +1,68 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	tools:context="no.woact.marchr16.menu.MainMenuFragment"
+	tools:layout_editor_absoluteY="25dp">
+	
+	<Button
+		android:id="@+id/btnSinglePlayer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="8dp"
+		android:background="@null"
+		android:padding="0dp"
+		android:soundEffectsEnabled="false"
+		android:text="@string/strSinglePlayer"
+		android:textAlignment="viewStart"
+		android:textAllCaps="false"
+		android:textSize="20sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<Button
+		android:id="@+id/btnMultiPlayer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="40dp"
+		android:layout_marginTop="8dp"
+		android:background="@null"
+		android:soundEffectsEnabled="false"
+		android:text="@string/strMultiPlayer"
+		android:textAlignment="viewEnd"
+		android:textAllCaps="false"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<Button
+		android:id="@+id/btnSettings"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="40dp"
+		android:background="@null"
+		android:elevation="17dp"
+		android:soundEffectsEnabled="false"
+		android:text="@string/strSettings"
+		android:textAlignment="viewEnd"
+		android:textAllCaps="false"
+		android:textSize="20sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnMultiPlayer" />
+	
+	<Button
+		android:id="@+id/btnHighScore"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="40dp"
+		android:background="@null"
+		android:soundEffectsEnabled="false"
+		android:text="HighScore"
+		android:textAlignment="viewStart"
+		android:textAllCaps="false"
+		android:textSize="20sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnSinglePlayer" />
+</android.support.constraint.ConstraintLayout>

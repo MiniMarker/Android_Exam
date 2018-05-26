@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="no.woact.marchr16.menu.SinglePlayerFragment">
+	
+	<TextView
+		android:id="@+id/txtSingleHeader"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="120dp"
+		android:text="@string/strSinglePlayer"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<EditText
+		android:id="@+id/edtSinglePlayer1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="24dp"
+		android:layout_marginTop="190dp"
+		android:ems="10"
+		android:inputType="textPersonName"
+		android:maxLength="12"
+		android:singleLine="true"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/txtSinglePlayer1"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtSinglePlayer1"
+		android:layout_width="wrap_content"
+		android:layout_height="42dp"
+		android:layout_marginStart="24dp"
+		android:layout_marginTop="195dp"
+		android:text="@string/strPlayer1"
+		android:textAlignment="center"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toStartOf="@+id/edtSinglePlayer1"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<Button
+		android:id="@+id/btnSinglePlayGame"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="320dp"
+		android:soundEffectsEnabled="false"
+		android:text="@string/strPlayGame"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

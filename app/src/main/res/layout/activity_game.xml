@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background2"
+	tools:context="no.woact.marchr16.game.GameActivity">
+	
+	<fragment
+		android:id="@+id/fragBoard"
+		android:name="no.woact.marchr16.game.BoardFragment"
+		android:layout_width="341dp"
+		android:layout_height="411dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<fragment
+		android:id="@+id/fragPlayers"
+		android:name="no.woact.marchr16.game.PlayersFragment"
+		android:layout_width="344dp"
+		android:layout_height="145dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.492"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/fragBoard" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+CREATE TABLE Player (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	name TEXT NOT NULL
+)
+
+CREATE TABLE MatchStats(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+	player_id INTEGER,
+	victories INTEGER,
+	defeats INTEGER,
+	FOREIGN KEY (player_id) REFERENCES Player(id)
+);

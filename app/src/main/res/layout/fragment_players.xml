@@ -1,0 +1,73 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	tools:context="no.woact.marchr16.game.PlayersFragment"
+	tools:layout_editor_absoluteY="25dp">
+	
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="44dp"
+		android:layout_height="35dp"
+		android:layout_marginEnd="24dp"
+		android:layout_marginTop="40dp"
+		android:src="@drawable/circle3"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtMultiPlayer1"
+		android:layout_width="141dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="24dp"
+		android:layout_marginTop="80dp"
+		android:text="Player1"
+		android:textAppearance="@style/TextAppearance.AppCompat.Title"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtMultiPlayer2"
+		android:layout_width="139dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="24dp"
+		android:layout_marginTop="80dp"
+		android:text="Player2"
+		android:textAlignment="textEnd"
+		android:textAppearance="@style/TextAppearance.AppCompat.Title"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtVs"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="80dp"
+		android:text="VS."
+		android:textAppearance="@style/TextAppearance.AppCompat.Title"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="44dp"
+		android:layout_height="35dp"
+		android:layout_marginStart="24dp"
+		android:layout_marginTop="40dp"
+		android:src="@drawable/cross3"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtGameDifficulty"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="24dp"
+		android:text="TEST"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/txtMultiPlayer2" />
+
+</android.support.constraint.ConstraintLayout>

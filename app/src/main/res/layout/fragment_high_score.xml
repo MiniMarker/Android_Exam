@@ -1,0 +1,70 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	tools:context="no.woact.marchr16.menu.HighScoreFragment">
+	
+	<TextView
+		android:id="@+id/txtHighScoreHeader"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="120dp"
+		android:text="@string/strHighScore"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<ListView
+		android:id="@+id/lstViewHighScore"
+		android:layout_width="350dp"
+		android:layout_height="216dp"
+		android:layout_marginTop="184dp"
+		android:background="@drawable/blank"
+		android:divider="@color/listViewDivider"
+		android:dividerHeight="1dip"
+		android:footerDividersEnabled="false"
+		android:headerDividersEnabled="false"
+		android:scrollbars="vertical"
+		android:textAlignment="center"
+		android:visibility="visible"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.491"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<TextView
+		android:id="@+id/txtName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="@string/strName"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/txtHighScoreHeader" />
+	
+	<TextView
+		android:id="@+id/txtVictories"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="@string/strDefeats"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/txtHighScoreHeader" />
+	
+	<TextView
+		android:id="@+id/txtDefeats"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="28dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/strVictories"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toStartOf="@+id/txtVictories"
+		app:layout_constraintTop_toBottomOf="@+id/txtHighScoreHeader" />
+
+</android.support.constraint.ConstraintLayout>
